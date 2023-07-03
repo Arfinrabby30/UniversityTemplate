@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">  
+    <title>University Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.htm" class="logo"><img src="eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and <br>publishing industries for previewing layouts and visual mockups.</p>
+            <a href="#">Click here to know more</a>
+        </div>
+    </section>
+
+    <!---------------------------course sectio---------------------------->
+<section class="course">
+    <h1>Course We Offer</h1>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and <br>publishing industries for previewing layouts and visual mockups.</p>
+    
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and <br>publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and <br>publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and <br>publishing industries for previewing layouts and visual mockups.</p>
+        </div>
+    </div>
+
+
+
+</section>
+
+<!---------------------------------Our Campus------------------------------------------->
+
+<section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum is placeholder text commonly used in the graphic</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src=>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------------------------------JavaScript for Toggle Menu------------------------------------------->
+    <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
